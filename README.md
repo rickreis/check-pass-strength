@@ -1,2 +1,2 @@
-# check-pass-strength
+# Check Pass Strength
 Password Strength Checker
