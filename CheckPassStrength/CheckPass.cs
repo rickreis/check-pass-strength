@@ -16,31 +16,31 @@ namespace CheckPassStrength
 
         private int GetPointsLowerCase(string pass)
         {
-            int raw = pass.Length - Regex.Replace(pass, "[a-z]", "").Length;
+            var raw = pass.Length - Regex.Replace(pass, "[a-z]", "").Length;
             return Math.Min(2, raw) * 5;
         }
 
         private int GetPointsUpperCase(string pass)
         {
-            int raw = pass.Length - Regex.Replace(pass, "[A-Z]", "").Length;
+            var raw = pass.Length - Regex.Replace(pass, "[A-Z]", "").Length;
             return Math.Min(2, raw) * 5;
         }
 
         private int GetPointsDigits(string pass)
         {
-            int raw = pass.Length - Regex.Replace(pass, "[0-9]", "").Length;
+            var raw = pass.Length - Regex.Replace(pass, "[0-9]", "").Length;
             return Math.Min(2, raw) * 6;
         }
 
         private int GetPointsSimbols(string pass)
         {
-            int raw = Regex.Replace(pass, "[a-zA-Z0-9]", "").Length;
+            var raw = Regex.Replace(pass, "[a-zA-Z0-9]", "").Length;
             return Math.Min(2, raw) * 5;
         }
 
         private int GetPointsRepete(string pass)
         {
-            System.Text.RegularExpressions.Regex regex = new System.Text.RegularExpressions.Regex(@"(\w)*.*\1");
+            var regex = new Regex(@"(\w)*.*\1");
 
             bool repete = regex.IsMatch(pass);
 
