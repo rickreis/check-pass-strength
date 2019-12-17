@@ -3,3 +3,8 @@ D:\POCs\CheckPassStrength\CheckPassStrength\bin\Debug\CheckPassStrength.exe
 D:\POCs\CheckPassStrength\CheckPassStrength\bin\Debug\CheckPassStrength.pdb
 D:\POCs\CheckPassStrength\CheckPassStrength\obj\Debug\CheckPassStrength.exe
 D:\POCs\CheckPassStrength\CheckPassStrength\obj\Debug\CheckPassStrength.pdb
+D:\GitHub\rickreis\check-pass-strength\CheckPassStrength\bin\Debug\CheckPassStrength.exe.config
+D:\GitHub\rickreis\check-pass-strength\CheckPassStrength\bin\Debug\CheckPassStrength.exe
+D:\GitHub\rickreis\check-pass-strength\CheckPassStrength\bin\Debug\CheckPassStrength.pdb
+D:\GitHub\rickreis\check-pass-strength\CheckPassStrength\obj\Debug\CheckPassStrength.exe
+D:\GitHub\rickreis\check-pass-strength\CheckPassStrength\obj\Debug\CheckPassStrength.pdb
